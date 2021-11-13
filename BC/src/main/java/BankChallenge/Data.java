@@ -13,15 +13,17 @@ public class Data {
     }
 
     public List<Object[]> storage(){
-        DecimalFormat twoDP = new DecimalFormat("#.##");
+        DecimalFormat twoDP = new DecimalFormat("#.00");
 
-        for (Integer i = 0; i < this.array.length; i++){
-            if(this.array[i][0].equals("deposit") || this.array[i][0].equals("Deposit") || this.array[i][0].equals("withdrawal") || this.array[i][0].equals("Withdrawal")){
-                Object date = this.array[i][1];
-                Integer amount = (Integer) this.array[i][2];
+        for (Integer i = 0; i < this.array.length; i++) {
+            if (this.array[i][0].equals("deposit") || this.array[i][0].equals("Deposit") || this.array[i][0].equals("withdrawal") || this.array[i][0].equals("Withdrawal")) {
+                String date = (String) this.array[i][1];
+                Double amount = (Double) this.array[i][2];
                 Object[] data = new Object[2];
                 data[0] = date;
-                data[1] = amount;
+                data[1] = twoDP.format(amount);
+                System.out.println(data[0]);
+                System.out.println(data[1]);
                 this.dataArray.add(data);
             }
         }
