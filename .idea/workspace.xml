@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="230e1add-8782-4801-8ed6-2b109fac1d86" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BC/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BC/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BC/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BC/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BC/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BC/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BC/.idea/sonarlint/issuestore/3/8/38d98a75ec5b9b6366f5fe3116065e64827ede15" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BC/.idea/sonarlint/issuestore/4/d/4d9b5d34d5c20520cadfb4ab553e8d638e32b7c1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BC/.idea/sonarlint/issuestore/5/2/52e7c22fb7f2d4e33f9f20eff02db9f1be3eff0d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BC/.idea/sonarlint/issuestore/9/7/977260e60dc7374db42f606392c11bed61e461c4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BC/.idea/sonarlint/issuestore/a/0/a026dadd856681af9fef59cd5e1d8aa1cdb51899" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BC/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/BC/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/BC/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
