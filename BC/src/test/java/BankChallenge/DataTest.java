@@ -10,7 +10,7 @@ class DataTest {
     public void when100deposited(){
         Object[][] transactions = new Object[][]{{"deposit","10/01/2012",100.00}};
         Data data = new Data(transactions);
-        Object[] deposit1 = new Object[]{"10/01/2012", "100.00"};
+        String[] deposit1 = new String[]{"10/01/2012", "100.00"};
 
         assertEquals(Arrays.toString(deposit1), Arrays.toString(data.storage().get(0)));
     }

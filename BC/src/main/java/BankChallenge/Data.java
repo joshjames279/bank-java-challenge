@@ -22,8 +22,6 @@ public class Data {
                 Object[] data = new Object[2];
                 data[0] = date;
                 data[1] = twoDP.format(amount);
-                System.out.println(data[0]);
-                System.out.println(data[1]);
                 this.dataArray.add(data);
             }
         }
