@@ -53,5 +53,5 @@ class TransactionTest {
 
         assertEquals(Arrays.toString(balanceArray), transaction.update().toString());
     }
-    
+
 }
