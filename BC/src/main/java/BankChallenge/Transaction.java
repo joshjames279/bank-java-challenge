@@ -13,9 +13,9 @@ public class Transaction {
         this.array = array;
     }
 
-    public Transaction (Object[][] array, Double balance){
+    public Transaction (Object[][] array, Double startingBalance){
         this.array = array;
-        this.balance = balance;
+        this.balance = startingBalance;
     }
 
     public List<String> update(){
