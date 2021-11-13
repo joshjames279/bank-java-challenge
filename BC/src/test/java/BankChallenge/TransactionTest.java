@@ -42,13 +42,13 @@ class TransactionTest {
     }
 
     @Test
-    public void when200deposited80withdrawn10withdrawn1000deposited(){
+    public void when200deposited80withdrawn10withdrawn1000depositedStartingBalanceOf200(){
         Object[][] transactions = new Object[][]{{"deposit","10/01/2012",200.00},{"withdrawal","11/01/2012",80.00},{"withdrawal","12/01/2012",10.00},{"deposit","13/01/2012",1000.00}};
-        Transaction transaction = new Transaction(transactions);
-        String sum1 = "200.00";
-        String sum2 = "120.00";
-        String sum3 = "110.00";
-        String sum4 = "1110.00";
+        Transaction transaction = new Transaction(transactions, 200.00);
+        String sum1 = "400.00";
+        String sum2 = "320.00";
+        String sum3 = "310.00";
+        String sum4 = "1310.00";
         String[] balanceArray = new String[]{sum1,sum2, sum3, sum4};
 
         assertEquals(Arrays.toString(balanceArray), transaction.update().toString());

@@ -13,6 +13,11 @@ public class Transaction {
         this.array = array;
     }
 
+    public Transaction (Object[][] array, Double balance){
+        this.array = array;
+        this.balance = balance;
+    }
+
     public List<String> update(){
         DecimalFormat twoDP = new DecimalFormat("#.00");
 
